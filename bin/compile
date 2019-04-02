@@ -22,7 +22,7 @@ echo "-----> Fetching lit and building luvit"
 
 mkdir -p $BIN_DIR
 cd $BIN_DIR
-curl -L https://pastebin.com/raw/vAFqA7pe | sh | indent
+curl -L https://raw.githubusercontent.com/Lautenschlager-id/Teeeest/master/get-lit.sh | sh | indent
 chmod +x $BIN_DIR/lit
 
 if [ ! -f $BIN_DIR/luvit ]; then
